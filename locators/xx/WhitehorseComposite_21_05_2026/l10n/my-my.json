@@ -1,0 +1,41 @@
+{
+    "input-fields":{
+        "SingleLine":"alamat lengkap",
+        "City":"Bandar",
+        "Neighborhood":"Lokaliti",
+        "CountryCode":"kod negara",
+        "Region":"Negeri",
+        "Subregion":"Daerah",
+        "Address":"Alamat",
+        "Postal":"Poskod"
+    },
+    "output-fields":{
+        
+    },
+    "recognized-input-field-names":{
+        "SingleLine":[
+            "alamat lengkap"
+        ],
+        "City":[
+            "Bandar"
+        ],
+        "Neighborhood":[
+            "Lokaliti"
+        ],
+        "CountryCode":[
+            "kod negara"
+        ],
+        "Region":[
+            "Negeri"
+        ],
+        "Subregion":[
+            "Daerah"
+        ],
+        "Address":[
+            "Alamat"
+        ],
+        "Postal":[
+            "Poskod"
+        ]
+    }
+}

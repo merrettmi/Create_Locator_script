@@ -1,0 +1,40 @@
+{
+    "input-fields":{
+        "SingleLine":"dirección única línea",
+        "City":"Municipio",
+        "Neighborhood":"Zona",
+        "CountryCode":"Código del país",
+        "Region":"Departamento",
+        "Address3":"Address3",
+        "Address":"Dirección o lugar",
+        "Postal":"Código Postal",
+        "Address2":"Address2"
+    },
+    "output-fields":{
+        
+    },
+    "recognized-input-field-names":{
+        "SingleLine":[
+            "dirección única línea"
+        ],
+        "City":[
+            "Municipio"
+        ],
+        "Neighborhood":[
+            "Colonia",
+            "Zona"
+        ],
+        "CountryCode":[
+            "Código del país"
+        ],
+        "Region":[
+            "Departamento"
+        ],
+        "Address":[
+            "Dirección"
+        ],
+        "Postal":[
+            "Código postal"
+        ]
+    }
+}

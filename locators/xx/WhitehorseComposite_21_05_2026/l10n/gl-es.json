@@ -1,0 +1,33 @@
+{
+    "input-fields":{
+        "SingleLine":"enderezo de liña única",
+        "City":"Cidade",
+        "CountryCode":"Código do país",
+        "Region":"Provincia",
+        "Address":"Enderezo",
+        "Postal":"Código postal"
+    },
+    "output-fields":{
+        
+    },
+    "recognized-input-field-names":{
+        "SingleLine":[
+            "enderezo de liña única"
+        ],
+        "City":[
+            "Cidade"
+        ],
+        "CountryCode":[
+            "Código do país"
+        ],
+        "Region":[
+            "Provincia"
+        ],
+        "Address":[
+            "Enderezo"
+        ],
+        "Postal":[
+            "Código postal"
+        ]
+    }
+}

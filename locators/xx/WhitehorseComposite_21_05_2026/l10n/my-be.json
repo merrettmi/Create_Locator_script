@@ -1,0 +1,14 @@
+{
+    "input-fields":{
+        "CountryCode":"kod negara",
+        "Address":"Alamat"
+    },
+    "output-fields":{
+        
+    },
+    "recognized-input-field-names":{
+        "CountryCode":[
+            "kod negara"
+        ]
+    }
+}

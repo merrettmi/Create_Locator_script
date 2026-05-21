@@ -1,0 +1,40 @@
+{
+    "input-fields":{
+        "SingleLine":"Adresă completă",
+        "City":"Oraș",
+        "CountryCode":"Codul țării",
+        "Region":"Județ",
+        "Address3":"Adresă3",
+        "Address":"Adresă sau loc",
+        "Postal":"Cod Poştal",
+        "Address2":"Adresă2"
+    },
+    "output-fields":{
+        
+    },
+    "recognized-input-field-names":{
+        "SingleLine":[
+            "Adresă completă"
+        ],
+        "City":[
+            "Oraș"
+        ],
+        "CountryCode":[
+            "Codul țării",
+            "Ţară"
+        ],
+        "Region":[
+            "Județ",
+            "Municipiu"
+        ],
+        "Address":[
+            "Adresă",
+            "Adresă Stradă",
+            "Nume Stradă",
+            "Stradă"
+        ],
+        "Postal":[
+            "Cod Poştal"
+        ]
+    }
+}

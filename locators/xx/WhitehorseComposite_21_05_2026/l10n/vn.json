@@ -1,0 +1,13 @@
+{
+    "input-fields":{
+        "Subregion":"thành phố"
+    },
+    "output-fields":{
+        
+    },
+    "recognized-input-field-names":{
+        "Subregion":[
+            "thành phố"
+        ]
+    }
+}

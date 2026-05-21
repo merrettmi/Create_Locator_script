@@ -1,0 +1,33 @@
+{
+    "input-fields":{
+        "SingleLine":"Helbide lerro bakarra",
+        "City":"Hiri",
+        "CountryCode":"Herrialdearen kodea",
+        "Region":"Probintzia",
+        "Address":"Helbidea",
+        "Postal":"Kode postala"
+    },
+    "output-fields":{
+        
+    },
+    "recognized-input-field-names":{
+        "SingleLine":[
+            "Helbide lerro bakarra"
+        ],
+        "City":[
+            "Hiri"
+        ],
+        "CountryCode":[
+            "Herrialdearen kodea"
+        ],
+        "Region":[
+            "Probintzia"
+        ],
+        "Address":[
+            "Helbidea"
+        ],
+        "Postal":[
+            "Kode postala"
+        ]
+    }
+}

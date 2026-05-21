@@ -1,0 +1,29 @@
+{
+    "input-fields":{
+        "SingleLine":"adresa completă",
+        "City":"oraș",
+        "Postal":"cod poștal",
+        "CountryCode":"țară",
+        "Address":"adresă"
+    },
+    "output-fields":{
+        
+    },
+    "recognized-input-field-names":{
+        "SingleLine":[
+            "adresa completă"
+        ],
+        "City":[
+            "oraș"
+        ],
+        "Postal":[
+            "cod poștal"
+        ],
+        "CountryCode":[
+            "țară"
+        ],
+        "Address":[
+            "adresă"
+        ]
+    }
+}

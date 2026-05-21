@@ -1,0 +1,14 @@
+{
+    "input-fields":{
+        "City":"City",
+        "Address2":"Address2",
+        "Address3":"Address3",
+        "Address":"Dirección o lugar"
+    },
+    "output-fields":{
+        
+    },
+    "recognized-input-field-names":{
+        
+    }
+}

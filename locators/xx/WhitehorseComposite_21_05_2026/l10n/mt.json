@@ -1,0 +1,29 @@
+{
+    "input-fields":{
+        "SingleLine":"indirizz komplut",
+        "City":"Belt",
+        "Postal":"kodiċi postali",
+        "CountryCode":"pajjiż",
+        "Address":"Indirizz"
+    },
+    "output-fields":{
+        
+    },
+    "recognized-input-field-names":{
+        "SingleLine":[
+            "indirizz komplut"
+        ],
+        "City":[
+            "Belt"
+        ],
+        "Postal":[
+            "kodiċi postali"
+        ],
+        "CountryCode":[
+            "pajjiż"
+        ],
+        "Address":[
+            "Indirizz"
+        ]
+    }
+}

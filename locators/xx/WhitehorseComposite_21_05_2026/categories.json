@@ -1,0 +1,93 @@
+{
+    "categories":[
+        {
+            "name":"Address",
+            "categories":[
+                {
+                    "name":"Subaddress",
+                    "allowed-features":[
+                        "AddrType:Subaddress"
+                    ]
+                },
+                {
+                    "name":"Point Address",
+                    "allowed-features":[
+                        "AddrType:PointAddress"
+                    ]
+                },
+                {
+                    "name":"Street Address",
+                    "allowed-features":[
+                        "AddrType:StreetAddress",
+                        "AddrType:StreetAddressExt"
+                    ]
+                },
+                {
+                    "name":"Intersection",
+                    "allowed-features":[
+                        "AddrType:StreetInt"
+                    ]
+                },
+                {
+                    "name":"Street Midblock",
+                    "allowed-features":[
+                        
+                    ],
+                    "allowed-features2":[
+                        "AddrType:StreetMidBlock"
+                    ]
+                },
+                {
+                    "name":"Street Between",
+                    "allowed-features":[
+                        
+                    ],
+                    "allowed-features2":[
+                        "AddrType:StreetBetween"
+                    ]
+                },
+                {
+                    "name":"Street Name",
+                    "allowed-features":[
+                        "AddrType:StreetName"
+                    ]
+                }
+            ]
+        },
+        {
+            "name":"Coordinate System",
+            "categories":[
+                {
+                    "name":"LatLong",
+                    "allowed-features":[
+                        "AddrType:LatLong"
+                    ]
+                },
+                {
+                    "name":"XY",
+                    "allowed-features":[
+                        "AddrType:XY"
+                    ]
+                },
+                {
+                    "name":"YX",
+                    "allowed-features":[
+                        "AddrType:YX"
+                    ]
+                },
+                {
+                    "name":"MGRS",
+                    "allowed-features":[
+                        "AddrType:MGRS"
+                    ]
+                },
+                {
+                    "name":"USNG",
+                    "allowed-features":[
+                        "AddrType:USNG"
+                    ]
+                }
+            ]
+        }
+    ]
+}

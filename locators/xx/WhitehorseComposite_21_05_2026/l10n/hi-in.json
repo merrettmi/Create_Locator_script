@@ -1,0 +1,44 @@
+{
+    "input-fields":{
+        "SingleLine":"एकल लाइन पता",
+        "City":"सिटी",
+        "Neighborhood":"इलाका",
+        "CountryCode":"कंट्री कोड",
+        "Region":"राष्ट्र",
+        "Address3":"पता3",
+        "Subregion":"जनपद",
+        "Address":"पता या स्थान",
+        "Postal":"डाक - संबंधी",
+        "Address2":"पता2"
+    },
+    "output-fields":{
+        
+    },
+    "recognized-input-field-names":{
+        "SingleLine":[
+            "एकल लाइन पता"
+        ],
+        "City":[
+            "जनपद",
+            "सिटी"
+        ],
+        "Neighborhood":[
+            "इलाका"
+        ],
+        "CountryCode":[
+            "कंट्री कोड"
+        ],
+        "Region":[
+            "राष्ट्र"
+        ],
+        "Subregion":[
+            "जनपद"
+        ],
+        "Address":[
+            "प्रमाचार"
+        ],
+        "Postal":[
+            "डाक - संबंधी"
+        ]
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "input-fields":{
+        "SingleLine":"Single Line Input",
+        "City":"Postal Town",
+        "CountryCode":"Country",
+        "Address2":"Address2",
+        "Address3":"Address3",
+        "Address":"Address or Place",
+        "Postal":"Postal"
+    },
+    "output-fields":{
+        
+    },
+    "recognized-input-field-names":{
+        "SingleLine":[
+            "FullAddress",
+            "SingleLine"
+        ],
+        "City":[
+            "City",
+            "Postal Town",
+            "Town"
+        ],
+        "Postal":[
+            "Postal",
+            "Postal Code",
+            "Postalcode",
+            "Postcode"
+        ],
+        "CountryCode":[
+            "Country",
+            "Country Code",
+            "ISO Country Code"
+        ],
+        "Address":[
+            "Address",
+            "Street",
+            "Street Address"
+        ]
+    }
+}

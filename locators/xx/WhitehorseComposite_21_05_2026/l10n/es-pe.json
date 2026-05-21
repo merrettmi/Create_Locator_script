@@ -1,0 +1,39 @@
+{
+    "input-fields":{
+        "SingleLine":"Dirección completa",
+        "City":"Distrito",
+        "Neighborhood":"Agrupación Urbana",
+        "CountryCode":"Código del país",
+        "Region":"Departamento",
+        "Address3":"Address3",
+        "Subregion":"Provincia",
+        "Address":"Dirección o lugar",
+        "Address2":"Address2"
+    },
+    "output-fields":{
+        
+    },
+    "recognized-input-field-names":{
+        "SingleLine":[
+            "Dirección completa"
+        ],
+        "City":[
+            "Distrito"
+        ],
+        "Neighborhood":[
+            "Agrupación Urbana"
+        ],
+        "CountryCode":[
+            "Código del país"
+        ],
+        "Region":[
+            "Departamento"
+        ],
+        "Subregion":[
+            "Provincia"
+        ],
+        "Address":[
+            "Dirección"
+        ]
+    }
+}

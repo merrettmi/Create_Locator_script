@@ -1,0 +1,14 @@
+{
+    "input-fields":{
+        "Subregion":"Post Town",
+        "Address":"Cyfeiriad"
+    },
+    "output-fields":{
+        
+    },
+    "recognized-input-field-names":{
+        "Subregion":[
+            "Post Town"
+        ]
+    }
+}

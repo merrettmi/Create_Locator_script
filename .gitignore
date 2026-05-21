@@ -1,0 +1,124 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# VS Code settings
+##.vscode/
+
+# Logs
+logs/
+*.log
+*.log_*
+logs/PROCESSING.log
+logs/PROCESSING*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python config files
+config.ini
+*.ini
+
+# Test, coverage, and build artifacts
+*.coverage
+*.egg-info/
+dist/
+build/
+.coverage
+htmlcov/
+
+Backups/
+CityLimits_ShapeFiles/
+Cropped/
+DatabasesForUse/
+Downloads/
+ExpandedFiles/
+Scripts_Database.gdb/
+
+*.exe
+*.sde
+
+# ArcGIS File Geodatabases
+*.gdb/
+# ArcGIS lock files
+*.lock
+
+# ArcGIS temp/scratch
+scratch.gdb/
+*.gdb-lock
+*.sr.lock
+
+
+
+# =========================
+# ArcGIS File Geodatabases
+# =========================
+*.gdb/
+*.mdb
+*.sde
+
+# =========================
+# ArcGIS Locks & Temp Files
+# =========================
+*.lock
+*.gdb-lock
+*.sr.lock
+*.freelist
+*.atx
+*.spx
+
+# =========================
+# ArcGIS Pro Project Files
+# =========================
+*.aprx
+*.aprx.lock
+*.apsx
+*.mapx
+*.lyrx
+*.tbx.lock
+
+# =========================
+# Scratch / Cache
+# =========================
+scratch.gdb/
+in_memory/
+*.tmp
+*.temp
+
+# =========================
+# Enterprise Geodatabase Connections
+# (connection files often contain credentials)
+# =========================
+*.sde
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.env
+.venv
+venv/
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db

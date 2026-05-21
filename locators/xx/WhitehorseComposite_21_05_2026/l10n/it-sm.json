@@ -1,0 +1,36 @@
+{
+    "input-fields":{
+        "SingleLine":"Indirizzo Completo",
+        "City":"Città",
+        "CountryCode":"Paese",
+        "Region":"Provincia",
+        "Address3":"Indirizzo3",
+        "Address":"Indirizzo o località",
+        "Postal":"il Codice di Avviamento Postale",
+        "Address2":"Indirizzo2"
+    },
+    "output-fields":{
+        
+    },
+    "recognized-input-field-names":{
+        "SingleLine":[
+            "Indirizzo Completo"
+        ],
+        "City":[
+            "Città"
+        ],
+        "CountryCode":[
+            "Paese"
+        ],
+        "Region":[
+            "Provincia"
+        ],
+        "Address":[
+            "Indirizzo"
+        ],
+        "Postal":[
+            "CAP",
+            "il Codice di Avviamento Postale "
+        ]
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "input-fields":{
+        "SingleLine":"Địa chỉ đầy đủ",
+        "City":"huyện",
+        "Neighborhood":"phường",
+        "CountryCode":"ma quốc gia",
+        "Region":"tỉnh",
+        "Address3":"Địa chỉ 3",
+        "Address":"Địa chỉ hoặc Địa điểm",
+        "Postal":"mã bưu chính",
+        "Address2":"Địa chỉ 2"
+    },
+    "output-fields":{
+        
+    },
+    "recognized-input-field-names":{
+        "SingleLine":[
+            "Địa chỉ đầy đủ"
+        ],
+        "City":[
+            "huyện",
+            "thành phố"
+        ],
+        "Neighborhood":[
+            "phường"
+        ],
+        "CountryCode":[
+            "ma quốc gia"
+        ],
+        "Region":[
+            "tỉnh"
+        ],
+        "Address":[
+            "địa chỉ"
+        ],
+        "Postal":[
+            "mã bưu chính"
+        ]
+    }
+}

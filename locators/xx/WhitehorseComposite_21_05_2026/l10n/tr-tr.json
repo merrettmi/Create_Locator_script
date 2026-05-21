@@ -1,0 +1,40 @@
+{
+    "input-fields":{
+        "SingleLine":"tek satır adresi",
+        "City":"ilçesi",
+        "Neighborhood":"mahallesi",
+        "CountryCode":"ülke kodu",
+        "Region":"İli",
+        "Address3":"Adres 3",
+        "Address":"Adres veya Yer",
+        "Postal":"posta kodu",
+        "Address2":"Adres 2"
+    },
+    "output-fields":{
+        
+    },
+    "recognized-input-field-names":{
+        "SingleLine":[
+            "tek satır adresi"
+        ],
+        "City":[
+            "ilçesi"
+        ],
+        "Neighborhood":[
+            "mahallesi"
+        ],
+        "CountryCode":[
+            "ülke kodu"
+        ],
+        "Region":[
+            "İli"
+        ],
+        "Address":[
+            "Adres"
+        ],
+        "Postal":[
+            "posta",
+            "posta kodu"
+        ]
+    }
+}

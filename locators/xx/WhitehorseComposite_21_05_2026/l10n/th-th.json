@@ -1,0 +1,39 @@
+{
+    "input-fields":{
+        "SingleLine":"ที่อยู่แบบเต็ม",
+        "City":"อำเภอ",
+        "Neighborhood":"ตำบล",
+        "CountryCode":"รหัสประเทศ",
+        "Region":"จังหวัด",
+        "Address3":"ที่อยู่ 3",
+        "Address":"ที่อยู่หรือสถานที่",
+        "Postal":"รหัสไปรษณีย์",
+        "Address2":"ที่อยู่ 2"
+    },
+    "output-fields":{
+        
+    },
+    "recognized-input-field-names":{
+        "SingleLine":[
+            "ที่อยู่แบบเต็ม"
+        ],
+        "City":[
+            "อำเภอ"
+        ],
+        "Neighborhood":[
+            "ตำบล"
+        ],
+        "CountryCode":[
+            "รหัสประเทศ"
+        ],
+        "Region":[
+            "จังหวัด"
+        ],
+        "Address":[
+            "ที่อยู่"
+        ],
+        "Postal":[
+            "รหัสไปรษณีย์"
+        ]
+    }
+}

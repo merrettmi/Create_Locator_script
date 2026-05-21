@@ -1,0 +1,36 @@
+{
+    "input-fields":{
+        "SingleLine":"Single Line Input",
+        "City":"City",
+        "CountryCode":"Country",
+        "Region":"District",
+        "Address3":"Address3",
+        "Address":"Address or Place",
+        "Address2":"Address2"
+    },
+    "output-fields":{
+        
+    },
+    "recognized-input-field-names":{
+        "SingleLine":[
+            "FullAddress",
+            "SingleLine"
+        ],
+        "City":[
+            "City"
+        ],
+        "Region":[
+            "District"
+        ],
+        "CountryCode":[
+            "Country",
+            "Country Code",
+            "ISO Country Code"
+        ],
+        "Address":[
+            "Address",
+            "Street",
+            "Street Address"
+        ]
+    }
+}

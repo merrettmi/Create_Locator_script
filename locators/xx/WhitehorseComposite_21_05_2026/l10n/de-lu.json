@@ -1,0 +1,32 @@
+{
+    "input-fields":{
+        "SingleLine":"Zeile Adresse",
+        "City":"Stadt",
+        "CountryCode":"Landesvorwahl",
+        "Address2":"Addresse2",
+        "Address3":"Addresse3",
+        "Address":"Adresse oder Ort",
+        "Postal":"Post-"
+    },
+    "output-fields":{
+        
+    },
+    "recognized-input-field-names":{
+        "SingleLine":[
+            "Zeile Adresse"
+        ],
+        "City":[
+            "Gemeinde",
+            "Studt"
+        ],
+        "Postal":[
+            "Post-"
+        ],
+        "CountryCode":[
+            "Landesvorwahl"
+        ],
+        "Address":[
+            "Adresse"
+        ]
+    }
+}

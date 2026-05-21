@@ -1,0 +1,31 @@
+{
+    "input-fields":{
+        "SingleLine":"једна линија адреса",
+        "City":"град",
+        "CountryCode":"позивни број",
+        "Address2":"Address2",
+        "Address3":"Address3",
+        "Address":"Adresa ili mesto",
+        "Postal":"поштански код"
+    },
+    "output-fields":{
+        
+    },
+    "recognized-input-field-names":{
+        "SingleLine":[
+            "једна линија адреса"
+        ],
+        "City":[
+            "град"
+        ],
+        "Postal":[
+            "поштански код"
+        ],
+        "CountryCode":[
+            "позивни број"
+        ],
+        "Address":[
+            "адреса"
+        ]
+    }
+}

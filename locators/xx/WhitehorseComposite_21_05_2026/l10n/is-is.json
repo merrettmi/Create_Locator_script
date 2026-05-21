@@ -1,0 +1,29 @@
+{
+    "input-fields":{
+        "SingleLine":"fullt heimilisfang",
+        "City":"bæ",
+        "Postal":"Póstnúmer",
+        "CountryCode":"landið",
+        "Address":"Heimilisfang"
+    },
+    "output-fields":{
+        
+    },
+    "recognized-input-field-names":{
+        "SingleLine":[
+            "fullt heimilisfang"
+        ],
+        "City":[
+            "bæ"
+        ],
+        "Postal":[
+            "Póstnúmer"
+        ],
+        "CountryCode":[
+            "landið"
+        ],
+        "Address":[
+            "Heimilisfang"
+        ]
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "input-fields":{
+        "SingleLine":"поўны адрас",
+        "City":"горад",
+        "Postal":"паштовы індэкс",
+        "CountryCode":"код на държавата",
+        "Address":"адрас"
+    },
+    "output-fields":{
+        
+    },
+    "recognized-input-field-names":{
+        "SingleLine":[
+            "поўны адрас"
+        ],
+        "City":[
+            "горад"
+        ],
+        "Postal":[
+            "паштовы індэкс"
+        ],
+        "CountryCode":[
+            "код на държавата"
+        ],
+        "Address":[
+            "адрас"
+        ]
+    }
+}

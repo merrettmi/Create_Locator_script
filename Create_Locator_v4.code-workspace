@@ -1,0 +1,121 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"terminal.integrated.defaultProfile.windows": "Command Prompt",
+		"todo-tree.highlights.defaultHighlight": {
+			"icon": "alert",
+			"type": "text-and-comment",
+			"foreground": "black",
+			"background": "orange",
+			"opacity": 50,
+			"iconColour": "blue",
+			"gutterIcon": true
+		},
+		"todo-tree.highlights.customHighlight": {
+			"TODO": {
+				"icon": "check",
+				"foreground": "black",
+				"background": "white",
+				"iconColour": "white"
+			},
+			"NOTE": {
+				"icon": "note",
+				"foreground": "white",
+				"background": "cornflowerblue",
+				"iconColour": "cornflowerblue"
+			},
+			"USEFULL": {
+				"icon": "note",
+				"foreground": "black",
+				"background": "mediumaquamarine",
+				"iconColour": "mediumaquamarine"
+			},
+			"LEARN": {
+				"icon": "bookmark",
+				"foreground": "white",
+				"background": "hotpink",
+				"iconColour": "hotpink"
+			},
+			"COMMENT": {
+				"icon": "note",
+				"foreground": "white",
+				"background": "gray",
+				"iconColour": "gray"
+			},
+			"RECHECK": {
+				"icon": "codescan",
+				"foreground": "white",
+				"background": "chocolate",
+				"iconColour": "chocolate"
+			},
+			"INCOMPLETE": {
+				"icon": "alert",
+				"foreground": "white",
+				"background": "mediumvioletred",
+				"iconColour": "mediumvioletred"
+			},
+			"FIXME": {
+				"foreground": "black",
+				"background": "yellow",
+				"iconColour": "yellow"
+			},
+			"BUG": {
+				"foreground": "black",
+				"background": "red",
+				"iconColour": "red"
+			},
+			"SEE NOTES": {
+				"icon": "note",
+				"foreground": "white",
+				"background": "teal",
+				"iconColour": "teal"
+			},
+			"POST": {
+				"icon": "share",
+				"foreground": "white",
+				"background": "green",
+				"iconColour": "green"
+			},
+			"HACK": {
+				"foreground": "black",
+				"background": "cyan",
+				"iconColour": "yellow"
+			},
+			"[ ]": {
+				"icon": "check",
+				"foreground": "black",
+				"background": "white",
+				"iconColour": "yellow"
+			},
+			"[x]": {
+				"icon": "check",
+				"foreground": "white",
+				"background": "green",
+				"iconColour": "green"
+			}
+		},
+		"todo-tree.general.tags": [
+			"BUG",
+			"HACK",
+			"FIXME",
+			"TODO",
+			"NOTE",
+			"USEFULL",
+			"LEARN",
+			"RECHECK",
+			"INCOMPLETE",
+			"COMMENT",
+			"SEE NOTES",
+			"POST",
+			"[ ]",
+			"[x]"
+		],
+		"python-envs.defaultEnvManager": "ms-python.python:conda",
+		"python-envs.defaultPackageManager": "ms-python.python:conda",
+		"python.defaultInterpreterPath": "C:\\Program Files\\ArcGIS\\Pro\\bin\\Python\\envs\\arcgispro-py3"
+	}
+}

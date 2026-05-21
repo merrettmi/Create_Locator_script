@@ -1,0 +1,25 @@
+{
+    "input-fields":{
+        "SingleLine":"комплетна адреса",
+        "Postal":"поштенски број",
+        "CountryCode":"земја",
+        "Address":"aдреса"
+    },
+    "output-fields":{
+        
+    },
+    "recognized-input-field-names":{
+        "SingleLine":[
+            "комплетна адреса"
+        ],
+        "Postal":[
+            "поштенски број"
+        ],
+        "CountryCode":[
+            "земја"
+        ],
+        "Address":[
+            "aдреса"
+        ]
+    }
+}

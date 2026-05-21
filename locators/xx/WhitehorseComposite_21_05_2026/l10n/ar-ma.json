@@ -1,0 +1,45 @@
+{
+    "input-fields":{
+        "SingleLine":"ٳدخال سطر واحد",
+        "City":"دائرة",
+        "Neighborhood":"حي",
+        "CountryCode":"كود البلد",
+        "Region":"محافظة أو أقليم",
+        "Address3":"عنوان3",
+        "Subregion":"مدينة",
+        "Address":"العنوان أو المكان",
+        "Address2":"عنوان2"
+    },
+    "output-fields":{
+        
+    },
+    "recognized-input-field-names":{
+        "SingleLine":[
+            "ألعنوان ألكامل",
+            "سطر مفرد",
+            "ٳدخال سطر واحد"
+        ],
+        "City":[
+            "بلدية",
+            "دائرة"
+        ],
+        "Neighborhood":[
+            "حي",
+            "قرية"
+        ],
+        "CountryCode":[
+            "كود البلد"
+        ],
+        "Region":[
+            "محافظة أو أقليم"
+        ],
+        "Subregion":[
+            "مدينة"
+        ],
+        "Address":[
+            "ألشارع",
+            "ألعنوان",
+            "عنوان ألشارع"
+        ]
+    }
+}

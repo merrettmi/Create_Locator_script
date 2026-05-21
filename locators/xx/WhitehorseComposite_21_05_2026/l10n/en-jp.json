@@ -1,0 +1,130 @@
+{
+    "input-fields":{
+        "SingleLine":"Single Line Input",
+        "City":"City",
+        "Neighborhood":"Neighborhood",
+        "CountryCode":"Country",
+        "Region":"Prefecture",
+        "Address3":"Address3",
+        "Subregion":"County",
+        "Address":"Address or Place",
+        "Postal":"Postal",
+        "Address2":"Address2"
+    },
+    "source-fields":{
+        "ADDRESS_JOIN_ID":"Address Join ID",
+        "CITY_JOIN_ID":"Ku Join ID",
+        "X_MAX":"Max X",
+        "HOUSE_NUMBER":"Gou",
+        "COUNTRY":"Country",
+        "SUBREGION_JOIN_ID":"Gun Join ID",
+        "RANK":"Rank",
+        "BLOCK_JOIN_ID":"Gaiku Join ID",
+        "PLACE_JOIN_ID":"Place Join ID",
+        "SUB_ADDRESS_BUILDING_UNIT":"Building Unit",
+        "LANG_CODE":"Language Code",
+        "NEIGHBORHOOD":"Aza",
+        "POSTAL":"Postal",
+        "SUB_ADDRESS_LEVEL_TYPE":"Level Type",
+        "BLOCK":"Gaiku",
+        "DISTRICT_JOIN_ID":"Oaza Join ID",
+        "COUNTRY_JOIN_ID":"Country Join ID",
+        "DISPLAY_X":"Display X",
+        "DISPLAY_Y":"Display Y",
+        "REGION_ABBR":"Prefecture Abbreviation",
+        "Y_MAX":"Max Y",
+        "PHONE":"Phone",
+        "SUBREGION":"Gun",
+        "COUNTRY_CODE":"Country Code",
+        "SUB_ADDRESS_UNIT_TYPE":"Unit Type",
+        "BUILDING_NAME":"Building Name",
+        "REGION_JOIN_ID":"Prefecture Join ID",
+        "NEIGHBORHOOD_JOIN_ID":"Aza Join ID",
+        "METRO_AREA_JOIN_ID":"City Join ID",
+        "Y_MIN":"Min Y",
+        "URL":"URL",
+        "SUB_ADDRESS_UNIT_FROM":"Unit From",
+        "FEATURE_ID":"Feature ID",
+        "SUB_ADDRESS_UNIT_TO":"Unit To",
+        "NAME":"Name",
+        "CATEGORY":"Place Category",
+        "CITY":"Ku",
+        "SUBCATEGORY":"Place Subcategory",
+        "SUB_ADDRESS_LEVEL":"Level",
+        "PARCEL_NAME":"Parcel Name",
+        "REGION":"Prefecture",
+        "DISTRICT":"Oaza",
+        "PRIMARY_NAME_INDICATOR":"Primary Name Indicator",
+        "SUB_ADDRESS_UNIT":"Unit",
+        "PARCEL_JOIN_ID":"Parcel Join ID",
+        "METRO_AREA":"City",
+        "X_MIN":"Min X",
+        "SUB_ADDRESS_BUILDING_UNIT_TYPE":"Building Unit Type",
+        "POSTAL_JOIN_ID":"Postal Join ID",
+        "PLACE_NAME":"Place Name",
+        "PRIMARY_STREET_NAME_INDICATOR":"Primary Street Name Indicator"
+    },
+    "roles":{
+        "City":"Ku",
+        "District":"Oaza",
+        "AlternateMetroAreaName":"Alternate City Name",
+        "AlternateBlockName":"Alternate Gaiku Name",
+        "AlternateNeighborhoodName":"Alternate Aza Name",
+        "Parcel":"Parcel",
+        "PointAddress":"Point Address",
+        "POI":"POI",
+        "Postal":"Postal",
+        "AlternateSubregionName":"Alternate Gun Name",
+        "AlternatePOICategory":"Alternate POI Category",
+        "AlternateHouseNumber":"Alternate Gou",
+        "AlternateDistrictName":"Alternate Oaza Name",
+        "Country":"Country",
+        "Region":"Prefecture",
+        "AlternatePOIName":"Alternate POI Name",
+        "AlternateRegionName":"Alternate Prefecture Name",
+        "Block":"Gaiku",
+        "AlternateCountryName":"Alternate Country Name",
+        "Neighborhood":"Aza",
+        "AlternateCityName":"Alternate Ku Name",
+        "Subregion":"Gun",
+        "MetroArea":"City",
+        "AlternatePostalCode":"Alternate Postal Code"
+    },
+    "output-fields":{
+        
+    },
+    "recognized-input-field-names":{
+        "SingleLine":[
+            "FullAddress",
+            "SingleLine"
+        ],
+        "City":[
+            "City"
+        ],
+        "Neighborhood":[
+            "Neighborhood"
+        ],
+        "CountryCode":[
+            "Country",
+            "Country Code",
+            "ISO Country Code"
+        ],
+        "Region":[
+            "Prefecture"
+        ],
+        "Subregion":[
+            "County"
+        ],
+        "Address":[
+            "Address",
+            "Street",
+            "Street Address"
+        ],
+        "Postal":[
+            "Postal",
+            "Postal Code",
+            "Postalcode",
+            "Postcode"
+        ]
+    }
+}

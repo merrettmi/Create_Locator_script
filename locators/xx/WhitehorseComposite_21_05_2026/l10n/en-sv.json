@@ -1,0 +1,16 @@
+{
+    "input-fields":{
+        "Region":"County",
+        "Address3":"Address3",
+        "Address2":"Address2",
+        "Address":"Address or Place"
+    },
+    "output-fields":{
+        
+    },
+    "recognized-input-field-names":{
+        "Region":[
+            "County"
+        ]
+    }
+}

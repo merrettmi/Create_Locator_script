@@ -1,0 +1,37 @@
+{
+    "input-fields":{
+        "SingleLine":"cyfeiriad un llinell",
+        "City":"Post Town",
+        "Neighborhood":"Ardal",
+        "CountryCode":"côd gwlad",
+        "Region":"Sir",
+        "Address":"Cyfeiriad",
+        "Postal":"Cod Post"
+    },
+    "output-fields":{
+        
+    },
+    "recognized-input-field-names":{
+        "SingleLine":[
+            "cyfeiriad un llinell"
+        ],
+        "City":[
+            "Post Town"
+        ],
+        "Neighborhood":[
+            "Ardal"
+        ],
+        "CountryCode":[
+            "côd gwlad"
+        ],
+        "Region":[
+            "Sir"
+        ],
+        "Address":[
+            "Cyfeiriad"
+        ],
+        "Postal":[
+            "Cod Post"
+        ]
+    }
+}

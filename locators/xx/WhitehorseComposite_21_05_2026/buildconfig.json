@@ -1,0 +1,230 @@
+{
+    "version":1,
+    "country_code":"CAN",
+    "lang_code":"ENG",
+    "process_links":false,
+    "additional_properties":{
+        "PRECISION_TYPE":"LOCAL_EXTRA_HIGH",
+        "MAX_LOCATOR_VERSION":"17"
+    },
+    "ref_data":{
+        "data_sources":[
+            {
+                "role_name":"PointAddress",
+                "table_name":"SiteStructureAddressPoints_GDB",
+                "path":"M:\\Processing_Scripts\\Create_Locator_Service\\results\\processing.gdb",
+                "factory_prog_id":"esriDataSourcesGDB.FileGDBWorkspaceFactory",
+                "connection_properties":[
+                    {
+                        "DATABASE":"M:\\Processing_Scripts\\Create_Locator_Service\\results\\processing.gdb"
+                    }
+                ],
+                "mapping_schema":[
+                    {
+                        "role_field":"HOUSE_NUMBER",
+                        "mapped_field":"house_number",
+                        "display_field":"house_number"
+                    },
+                    {
+                        "role_field":"STREET_PREFIX_DIR",
+                        "mapped_field":"St_PreDir",
+                        "display_field":"Street Name Pre Directional"
+                    },
+                    {
+                        "role_field":"STREET_PREFIX_TYPE",
+                        "mapped_field":"St_PreTyp",
+                        "display_field":"Street Name Pre Type"
+                    },
+                    {
+                        "role_field":"STREET_NAME",
+                        "mapped_field":"St_Name",
+                        "display_field":"Street Name"
+                    },
+                    {
+                        "role_field":"STREET_SUFFIX_TYPE",
+                        "mapped_field":"St_PosTyp",
+                        "display_field":"Street Name Post Type"
+                    },
+                    {
+                        "role_field":"STREET_SUFFIX_DIR",
+                        "mapped_field":"St_PosDir",
+                        "display_field":"Street Name Post Directional"
+                    },
+                    {
+                        "role_field":"FULL_STREET_NAME",
+                        "mapped_field":"full_street_name",
+                        "display_field":"full_street_name"
+                    },
+                    {
+                        "role_field":"BUILDING_NAME",
+                        "mapped_field":"Building",
+                        "display_field":"Building"
+                    },
+                    {
+                        "role_field":"SUB_ADDRESS_UNIT",
+                        "mapped_field":"Unit",
+                        "display_field":"Unit"
+                    },
+                    {
+                        "role_field":"SUB_ADDRESS_LEVEL",
+                        "mapped_field":"Floor",
+                        "display_field":"Floor"
+                    },
+                    {
+                        "role_field":"PARCEL_JOIN_ID",
+                        "mapped_field":"i_gis_key",
+                        "display_field":"NRcan PIN, UCI"
+                    },
+                    {
+                        "role_field":"NEIGHBORHOOD",
+                        "mapped_field":"Nbrhd_Comm",
+                        "display_field":"Neighborhood Community"
+                    },
+                    {
+                        "role_field":"REGION_ABBR",
+                        "mapped_field":"Prov_Abbriviation",
+                        "display_field":"Prov_Abbriviation"
+                    },
+                    {
+                        "role_field":"COUNTRY",
+                        "mapped_field":"Country",
+                        "display_field":"Country"
+                    },
+                    {
+                        "role_field":"SUB_ADDRESS_UNIT_FROM",
+                        "mapped_field":"i_sub_Addr_unit_from",
+                        "display_field":"i_sub_Addr_unit_from"
+                    },
+                    {
+                        "role_field":"SUB_ADDRESS_UNIT_TO",
+                        "mapped_field":"i_sub_Addr_unit_to",
+                        "display_field":"i_sub_Addr_unit_to"
+                    }
+                ]
+            },
+            {
+                "role_name":"StreetAddress",
+                "table_name":"RoadCenterlines_GDB",
+                "path":"M:\\Processing_Scripts\\Create_Locator_Service\\results\\processing.gdb",
+                "factory_prog_id":"esriDataSourcesGDB.FileGDBWorkspaceFactory",
+                "connection_properties":[
+                    {
+                        "DATABASE":"M:\\Processing_Scripts\\Create_Locator_Service\\results\\processing.gdb"
+                    }
+                ],
+                "mapping_schema":[
+                    {
+                        "role_field":"COUNTRY",
+                        "mapped_field":"CountryCode",
+                        "display_field":"CountryCode"
+                    },
+                    {
+                        "role_field":"POSTAL_LEFT",
+                        "mapped_field":"PostCode_L",
+                        "display_field":"Postal Code Left"
+                    },
+                    {
+                        "role_field":"POSTAL_RIGHT",
+                        "mapped_field":"PostCode_R",
+                        "display_field":"Postal Code Right"
+                    },
+                    {
+                        "role_field":"STREET_NAME_JOIN_ID",
+                        "mapped_field":"NGUID",
+                        "display_field":"Road Centerline NENA Globally Unique ID"
+                    },
+                    {
+                        "role_field":"HOUSE_NUMBER_FROM_LEFT",
+                        "mapped_field":"FromAddr_L",
+                        "display_field":"Left FROM Address"
+                    },
+                    {
+                        "role_field":"HOUSE_NUMBER_TO_LEFT",
+                        "mapped_field":"ToAddr_L",
+                        "display_field":"Left TO Address"
+                    },
+                    {
+                        "role_field":"HOUSE_NUMBER_FROM_RIGHT",
+                        "mapped_field":"FromAddr_R",
+                        "display_field":"Right FROM Address"
+                    },
+                    {
+                        "role_field":"HOUSE_NUMBER_TO_RIGHT",
+                        "mapped_field":"ToAddr_R",
+                        "display_field":"Right TO Address"
+                    },
+                    {
+                        "role_field":"PARITY_LEFT",
+                        "mapped_field":"Parity_L",
+                        "display_field":"Parity Left"
+                    },
+                    {
+                        "role_field":"PARITY_RIGHT",
+                        "mapped_field":"Parity_R",
+                        "display_field":"Parity Right"
+                    },
+                    {
+                        "role_field":"STREET_PREFIX_DIR",
+                        "mapped_field":"St_PreDir",
+                        "display_field":"Street Name Pre Directional"
+                    },
+                    {
+                        "role_field":"STREET_PREFIX_TYPE",
+                        "mapped_field":"St_PreTyp",
+                        "display_field":"Street Name Pre Type"
+                    },
+                    {
+                        "role_field":"STREET_NAME",
+                        "mapped_field":"St_Name",
+                        "display_field":"Street Name"
+                    },
+                    {
+                        "role_field":"STREET_SUFFIX_TYPE",
+                        "mapped_field":"St_PosTyp",
+                        "display_field":"Street Name Post Type"
+                    },
+                    {
+                        "role_field":"STREET_SUFFIX_DIR",
+                        "mapped_field":"St_PosDir",
+                        "display_field":"Street Name Post Directional"
+                    },
+                    {
+                        "role_field":"FULL_STREET_NAME",
+                        "mapped_field":"FullStreetName",
+                        "display_field":"FullStreetName"
+                    },
+                    {
+                        "role_field":"CITY_LEFT",
+                        "mapped_field":"IncMuni_L",
+                        "display_field":"Incorporated Municipality Left"
+                    },
+                    {
+                        "role_field":"CITY_RIGHT",
+                        "mapped_field":"IncMuni_R",
+                        "display_field":"Incorporated Municipality Right"
+                    },
+                    {
+                        "role_field":"REGION_LEFT",
+                        "mapped_field":"State_L",
+                        "display_field":"State Left"
+                    },
+                    {
+                        "role_field":"REGION_ABBR_LEFT",
+                        "mapped_field":"Prov_Abbriviation",
+                        "display_field":"Prov_Abbriviation"
+                    },
+                    {
+                        "role_field":"REGION_RIGHT",
+                        "mapped_field":"State_R",
+                        "display_field":"State Right"
+                    },
+                    {
+                        "role_field":"REGION_ABBR_RIGHT",
+                        "mapped_field":"Prov_Abbriviation",
+                        "display_field":"Prov_Abbriviation"
+                    }
+                ]
+            }
+        ]
+    }
+}

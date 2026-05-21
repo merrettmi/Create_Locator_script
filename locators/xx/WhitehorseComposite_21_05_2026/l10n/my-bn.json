@@ -1,0 +1,38 @@
+{
+    "input-fields":{
+        "SingleLine":"alamat lengkap",
+        "City":"Mukim",
+        "Neighborhood":"Kawasan",
+        "Region":"Daerah",
+        "Subregion":"Bandar",
+        "Address":"Alamat",
+        "Postal":"Poskod"
+    },
+    "output-fields":{
+        
+    },
+    "recognized-input-field-names":{
+        "SingleLine":[
+            "alamat lengkap"
+        ],
+        "City":[
+            "Mukim"
+        ],
+        "Neighborhood":[
+            "Kampung",
+            "Kawasan"
+        ],
+        "Region":[
+            "Daerah"
+        ],
+        "Subregion":[
+            "Bandar"
+        ],
+        "Address":[
+            "Alamat"
+        ],
+        "Postal":[
+            "Poskod"
+        ]
+    }
+}

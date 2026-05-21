@@ -1,0 +1,41 @@
+{
+    "input-fields":{
+        "SingleLine":"Puna adresa",
+        "City":"Grad",
+        "Neighborhood":"Gradska četvrt",
+        "CountryCode":"Kod zemlje",
+        "Region":"Regija",
+        "Address3":"Adresa 3",
+        "Address":"Adresa ili mjesto",
+        "Postal":"Poštanski broj",
+        "Address2":"Adresa 2"
+    },
+    "output-fields":{
+        
+    },
+    "recognized-input-field-names":{
+        "SingleLine":[
+            "Puna adresa"
+        ],
+        "City":[
+            "Grad"
+        ],
+        "Neighborhood":[
+            "Gradska četvrt",
+            "Kvart"
+        ],
+        "CountryCode":[
+            "Kod zemlje"
+        ],
+        "Region":[
+            "Regija"
+        ],
+        "Address":[
+            "Ulica",
+            "Ulica i kućni broj"
+        ],
+        "Postal":[
+            "Poštanski broj"
+        ]
+    }
+}

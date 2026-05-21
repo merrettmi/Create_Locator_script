@@ -1,0 +1,52 @@
+
+// Helper to safely trim nulls
+function safe(v) {
+  return IIf(IsEmpty(v) || v == null, "", Trim(v));
+}
+
+// Build street string
+var Street = Trim(
+Concatenate([
+  safe($feature.St_PreMod),
+  safe($feature.St_PreDir),
+  safe($feature.St_PreSep),
+  safe($feature.St_Name),
+  safe($feature.St_PosTyp),
+  safe($feature.St_PosDir),
+  safe($feature.St_PosMod)
+], " ")
+);
+
+// Build address number string
+var addr = Trim(
+Concatenate([
+  safe($feature.AddNum_Pre),
+  safe($feature.Add_Number),
+  safe($feature.AddNum_Suf)
+], " ")
+);
+
+var nlsmallAddr = TextFormatting.NewLine + "<FNT size='7'>" + addr + " " + Street + "</FNT>";
+
+// Unit logic
+var unit = safe($feature.Unit);
+var unitprefix= safe(DomainName($feature, 'i_Unit_Prefix'));
+
+// If Unit exists, build multi-line label
+if (unit != "") {
+  return Trim(unitprefix + " "+ unit) + nlsmallAddr;
+};
+
+//landmark logic
+var landmark = safe($feature.LandmkName);
+
+// building
+var building = safe($feature.Building);
+
+// Place name
+var placetype = safe(DomainName($feature, 'Place_Type'))
+var place = Trim(Trim(building + " " + landmark) + " " + placetype)
+
+
+// Otherwise return just the address
+return addr;

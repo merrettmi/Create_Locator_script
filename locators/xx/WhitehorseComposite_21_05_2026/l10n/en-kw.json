@@ -1,0 +1,47 @@
+{
+    "input-fields":{
+        "SingleLine":"Single Line Input",
+        "City":"District",
+        "Neighborhood":"Block",
+        "CountryCode":"Country",
+        "Region":"Governorate",
+        "Address3":"Address3",
+        "Address":"Address or Place",
+        "Postal":"Postal",
+        "Address2":"Address2"
+    },
+    "output-fields":{
+        
+    },
+    "recognized-input-field-names":{
+        "SingleLine":[
+            "FullAddress",
+            "SingleLine"
+        ],
+        "City":[
+            "District"
+        ],
+        "Neighborhood":[
+            "Block"
+        ],
+        "CountryCode":[
+            "Country",
+            "Country Code",
+            "ISO Country Code"
+        ],
+        "Region":[
+            "Governorate"
+        ],
+        "Address":[
+            "Address",
+            "Street",
+            "Street Address"
+        ],
+        "Postal":[
+            "Postal",
+            "Postal Code",
+            "Postalcode",
+            "Postcode"
+        ]
+    }
+}

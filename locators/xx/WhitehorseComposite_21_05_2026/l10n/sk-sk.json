@@ -1,0 +1,30 @@
+{
+    "input-fields":{
+        "SingleLine":"úplná adresa",
+        "City":"Mesto",
+        "Postal":"poštové smerovacie číslo",
+        "CountryCode":"Krajiny",
+        "Address":"Adresa"
+    },
+    "output-fields":{
+        
+    },
+    "recognized-input-field-names":{
+        "SingleLine":[
+            "úplná adresa"
+        ],
+        "City":[
+            "Mesto"
+        ],
+        "Postal":[
+            "PSČ",
+            "poštové smerovacie číslo"
+        ],
+        "CountryCode":[
+            "Krajiny"
+        ],
+        "Address":[
+            "Adresa"
+        ]
+    }
+}
